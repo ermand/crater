@@ -3,25 +3,22 @@
     <a href="/" class="brand-main">
       <img
         id="logo-white"
-        src="/assets/img/logo-white.png"
-        alt="Crater Logo"
+        src="/assets/img/logo-white-text.png"
+        alt="Inovacion Logo"
         class="d-none d-md-inline"
-      >
+      />
       <img
         id="logo-mobile"
         src="/assets/img/crater-white-small.png"
         alt="Laraspace Logo"
-        class="d-md-none">
+        class="d-md-none"
+      />
     </a>
 
-    <a
-      href="#"
-      class="nav-toggle"
-      @click="onNavToggle"
-    >
+    <a href="#" class="nav-toggle" @click="onNavToggle">
       <div class="hamburger hamburger--arrowturn">
         <div class="hamburger-box">
-          <div class="hamburger-inner"/>
+          <div class="hamburger-inner" />
         </div>
       </div>
     </a>
@@ -33,17 +30,20 @@
           </a>
           <v-dropdown-item>
             <router-link class="dropdown-item" to="/admin/invoices/create">
-              <font-awesome-icon icon="file-alt" class="dropdown-item-icon" /> <span> {{ $t('invoices.new_invoice') }} </span>
+              <font-awesome-icon icon="file-alt" class="dropdown-item-icon" />
+              <span> {{ $t("invoices.new_invoice") }} </span>
             </router-link>
           </v-dropdown-item>
           <v-dropdown-item>
             <router-link class="dropdown-item" to="/admin/estimates/create">
-              <font-awesome-icon class="dropdown-item-icon" icon="file" /> <span> {{ $t('estimates.new_estimate') }} </span>
+              <font-awesome-icon class="dropdown-item-icon" icon="file" />
+              <span> {{ $t("estimates.new_estimate") }} </span>
             </router-link>
           </v-dropdown-item>
           <v-dropdown-item>
             <router-link class="dropdown-item" to="/admin/customers/create">
-              <font-awesome-icon class="dropdown-item-icon" icon="user" />  <span> {{ $t('customers.new_customer') }} </span>
+              <font-awesome-icon class="dropdown-item-icon" icon="user" />
+              <span> {{ $t("customers.new_customer") }} </span>
             </router-link>
           </v-dropdown-item>
         </v-dropdown>
@@ -58,20 +58,21 @@
             aria-expanded="false"
             class="avatar"
           >
-            <img src="/images/avatar.png" alt="Avatar">
+            <img src="/images/avatar.png" alt="Avatar" />
           </a>
           <v-dropdown-item>
             <router-link class="dropdown-item" to="/admin/settings">
-              <font-awesome-icon icon="cogs" class="dropdown-item-icon"/> <span> {{ $t('navigation.settings') }} </span>
+              <font-awesome-icon icon="cogs" class="dropdown-item-icon" />
+              <span> {{ $t("navigation.settings") }} </span>
             </router-link>
           </v-dropdown-item>
           <v-dropdown-item>
-            <a
-              href="#"
-              class="dropdown-item"
-              @click.prevent="logout"
-            >
-              <font-awesome-icon icon="sign-out-alt" class="dropdown-item-icon"/> <span> {{ $t('navigation.logout') }} </span>
+            <a href="#" class="dropdown-item" @click.prevent="logout">
+              <font-awesome-icon
+                icon="sign-out-alt"
+                class="dropdown-item-icon"
+              />
+              <span> {{ $t("navigation.logout") }} </span>
             </a>
           </v-dropdown-item>
         </v-dropdown>
@@ -80,19 +81,17 @@
   </header>
 </template>
 <script type="text/babel">
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   methods: {
     ...mapActions({
-      companySelect: 'changeCompany'
+      companySelect: "changeCompany"
     }),
-    ...mapActions('auth', [
-      'logout'
-    ]),
-    onNavToggle () {
-      this.$utils.toggleSidebar()
+    ...mapActions("auth", ["logout"]),
+    onNavToggle() {
+      this.$utils.toggleSidebar();
     }
   }
-}
+};
 </script>
