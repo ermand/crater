@@ -11,6 +11,9 @@ mix.webpackConfig({
   }
 })
 
+mix.copyDirectory('resources/assets/img', 'public/assets/img')
+  .copyDirectory('resources/assets/icon', 'public/assets/icon')
+  .copyDirectory('resources/assets/images', 'public/images')
 /*
  |--------------------------------------------------------------------------
  | Admin
@@ -18,7 +21,7 @@ mix.webpackConfig({
  */
 
 mix.js('resources/assets/js/app.js', 'public/assets/js/')
-  .sass('resources/assets/sass/crater.scss', 'public/assets/css/')
+  .sass('resources/assets/sass/app.scss', 'public/assets/css/')
 
 if (!mix.inProduction()) {
   mix.webpackConfig({
