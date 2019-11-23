@@ -588,7 +588,7 @@ export default {
       company_info: 'Information dentreprise',
       company_name: 'Nom de la compagnie',
       company_logo: 'Logo dentreprise',
-      section_description: 'Informations sur votre entreprise qui figureront sur les factures, estimations et autres documents créés par Crater.',
+      section_description: 'Informations sur votre entreprise qui figureront sur les factures, estimations et autres documents créés par Invoicing Platform.',
       phone: 'Téléphone',
       country: 'Pays',
       state: 'Etat',
@@ -631,7 +631,7 @@ export default {
     tax_types: {
       title: 'Types de taxe',
       add_tax: 'Ajouter une taxe',
-      description: 'Vous pouvez ajouter ou supprimer des taxes à votre guise. Crater prend en charge les taxes sur les articles individuels ainsi que sur la facture.',
+      description: 'Vous pouvez ajouter ou supprimer des taxes à votre guise. Invoicing Platform prend en charge les taxes sur les articles individuels ainsi que sur la facture.',
       add_new_tax: 'Ajouter une nouvelle taxe',
       tax_settings: 'Paramètres de taxe',
       tax_per_item: 'Taxe par article',
@@ -761,7 +761,7 @@ export default {
       system_req: 'Configuration requise',
       php_req_version: 'Php (version {version} nécessaire)',
       check_req: 'Vérifier les exigences',
-      system_req_desc: 'Crater a quelques exigences de serveur. Assurez-vous que votre serveur dispose de la version PHP requise et de toutes les extensions mentionnées ci-dessous.'
+      system_req_desc: 'Invoicing Platform a quelques exigences de serveur. Assurez-vous que votre serveur dispose de la version PHP requise et de toutes les extensions mentionnées ci-dessous.'
     },
     errors: {
       migrate_failed: 'Migration impossible',
@@ -775,16 +775,16 @@ export default {
     }
   },
   layout_login: {
-    copyright_crater: 'Copyright @ Crater - 2019',
+    copyright_crater: 'Copyright @ Inovacion - 2019',
     super_simple_invoicing: 'Super Simple Facturation',
     for_freelancer: 'pour les pigistes et',
     small_businesses: 'Petites entreprises ',
-    crater_help: 'Crater vous aide à suivre vos dépenses, à enregistrer vos paiements et à générer de belles',
+    crater_help: 'CraInvoicing Platformter vous aide à suivre vos dépenses, à enregistrer vos paiements et à générer de belles',
     invoices_and_estimates: 'factures et devis avec possibilité de choisir plusieurs modèles.'
 
   },
   validation: {
-    invalid_url: 'URL invalide (ex: http://www.crater.com)',
+    invalid_url: 'URL invalide (ex: http://inovacion.al)',
     required: 'Champ requis',
     email_incorrect: 'Adresse Email incorrecte.',
     email_does_not_exist: "L'utilisateur avec un email donné n'existe pas",

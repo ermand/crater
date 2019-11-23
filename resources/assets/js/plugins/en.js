@@ -592,7 +592,7 @@ export default {
       company_info: 'Company info',
       company_name: 'Company Name',
       company_logo: 'Company Logo',
-      section_description: 'Information about your company that will be displayed on invoices, estimates and other documents created by Crater.',
+      section_description: 'Information about your company that will be displayed on invoices, estimates and other documents created by Inovacion.',
       phone: 'Phone',
       country: 'Country',
       state: 'State',
@@ -623,9 +623,9 @@ export default {
       email: 'Send Notifications to',
       description: 'Which email notifications would you like to receive when something changes?',
       invoice_viewed: 'Invoice viewed',
-      invoice_viewed_desc: 'When your customer views the invoice sent via crater dashboard.',
+      invoice_viewed_desc: 'When your customer views the invoice sent via invoicing dashboard.',
       estimate_viewed: 'Estimate viewed',
-      estimate_viewed_desc: 'When your customer views the estimate sent via crater dashboard.',
+      estimate_viewed_desc: 'When your customer views the estimate sent via invoicing dashboard.',
       save: 'Save',
       email_save_message: 'Email saved successfully',
       please_enter_email: 'Please Enter Email'
@@ -633,7 +633,7 @@ export default {
     tax_types: {
       title: 'Tax Types',
       add_tax: 'Add Tax',
-      description: 'You can add or Remove Taxes as you please. Crater supports Taxes on Individual Items as well as on the invoice.',
+      description: 'You can add or Remove Taxes as you please. Invoicing platform supports Taxes on Individual Items as well as on the invoice.',
       add_new_tax: 'Add New Tax',
       tax_settings: 'Tax Settings',
       tax_per_item: 'Tax Per Item',
@@ -681,7 +681,7 @@ export default {
     },
     update_app: {
       title: 'Update App',
-      description: 'You can easily update Crater by checking for a new update by clicking the button below',
+      description: 'You can easily update Invoicing platform by checking for a new update by clicking the button below',
       check_update: 'Check for updates',
       avail_update: 'New Update available',
       next_version: 'Next version',
@@ -763,7 +763,7 @@ export default {
       system_req: 'System Requirements',
       php_req_version: 'Php (version {version} required)',
       check_req: 'Check Requirements',
-      system_req_desc: 'Crater has a few server requirements. Make sure that your server has the required php version and all the extensions mentioned below.'
+      system_req_desc: 'Invoicing platform has a few server requirements. Make sure that your server has the required php version and all the extensions mentioned below.'
     },
     errors: {
       migrate_failed: 'Migrate Failed',
@@ -778,15 +778,15 @@ export default {
     }
   },
   layout_login: {
-    copyright_crater: 'Copyright @ Crater - 2019',
+    copyright_crater: 'Copyright @ Inovacion - 2019',
     super_simple_invoicing: 'Super Simple Invoicing',
     for_freelancer: 'for Freelancers &',
     small_businesses: 'Small Businesses ',
-    crater_help: 'Crater helps you track expenses, record payments & generate beautiful',
+    crater_help: 'Invoicing platform helps you track expenses, record payments & generate beautiful',
     invoices_and_estimates: 'invoices & estimates with ability to choose multiple templates.'
   },
   validation: {
-    invalid_url: 'Invalid url (ex: http://www.crater.com)',
+    invalid_url: 'Invalid url (ex: http://inovacion.al/)',
     required: 'Field is required',
     email_incorrect: 'Incorrect Email.',
     email_already_taken: 'The email has already been taken.',

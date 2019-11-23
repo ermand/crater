@@ -5,7 +5,7 @@
         <div class="box-wrapper">
           <div class="logo-main">
             <a href="/admin">
-              <img src="/assets/img/crater-logo.png" alt="Inovacion Logo" />
+              <img src="/assets/img/logo.png" alt="Inovacion Logo" />
             </a>
           </div>
           <router-view></router-view>
